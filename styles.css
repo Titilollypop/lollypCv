@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+
+body {
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+ padding: 0;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ width: 100%;
+list-style-type: none;
+text-decoration: none;
+background-color: #666;
+
+}
+
+.cv-container{
+ width: 800px;
+ height: 250vh;
+ background-color: white;
+ display: grid;
+ grid-template-rows: 1fr 0.7fr 10fr;
+ /* padding: 2rem; */
+ line-height: 30px;
+ /* overflow-y: hidden; */
+
+}
+.section1{
+ background-color: white;
+ padding: 2rem;
+ 
+}
+ul{
+ list-style-type: none;
+
+}
+a{
+ text-decoration: none;
+ color: #222;
+}
+h1,h3,p,a {
+ margin: 0;
+}
+.fade{
+ color: #666;
+ font-weight: 500;
+}
+.texto{
+ font-size: 1rem;
+}
+
+
+/* SESSION2 ############ */
+
+.section2{
+ background-color: rgb(207, 206, 206);
+ width: 100%;
+ 
+}
+.info{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ width: 100%;
+
+}
+
+.mr{
+ margin-right: 1rem;
+}
+
+/* SECTION3 */
+.section-3{
+ padding: 2rem;
+ background-color: whitesmoke;
+}
+.section-3 .info{
+ background-color: whitesmoke;
+}
+.lefty{
+ line-height: 20px;
+ 
+}
+h1.education, .section-title{
+ color: rgb(29, 6, 114);
+ margin: 0;
+}
+.location{
+ font-weight: 500;
+ margin: 0;
+}
+.small{
+ color: #666;
+ font-style: italic;
+ margin: 0;
+}
+.content{
+ margin: 0;
+ font-weight: 400;
+ font-size: 1rem;
+}
+.btn{
+ padding: 0.1rem 0.5rem;
+ border-radius: 10px;
+ /* border: 1px solid black; */
+ height: fit-content;
+ width: fit-content;
+ margin: 0.25rem ;
+ font-size: 14px;
+ background-color: gray;
+ color: white;
+ 
+}
+.btns{
+ padding: 0.1rem 0.5rem;
+ border-radius: 10px;
+ /* border: 1px solid black; */
+ height: fit-content;
+ width: fit-content;
+ margin: 0.25rem ;
+ font-size: 14px;
+ background-color: gray;
+ color: white;
+ 
+}
+.skill-item{
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ 
+}
+
+
+@media screen and (max-width: 770px) {
+ .cv-container{
+  width: 100%;
+  height: auto;
+  white-space: normal;
+  overflow-x: hidden;
+  
+ }
+}
+@media screen and (max:600px) {
+ 
+ .info{
+ display: flex;
+ /* grid-template-columns: 1fr; */
+ flex-direction: column;
+ flex-wrap: wrap;
+ width: 100%;
+  
+}
+.cv-container{
+ overflow-x: scroll;
+}
+.section2 .info{
+ display: grid;
+ grid-template-columns: 1fr;
+}
+.left-info{
+ width: 100%;
+}
+.section1{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+}
+
